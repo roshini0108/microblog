@@ -1,16 +1,73 @@
-# microblog
+🐦 Microblog — Flutter Web App
 
-A new Flutter project.
+A simple Twitter-like microblogging app built with Flutter, showcasing posts, likes, retweets, explore tab, profile page, and a clean UI — all running on the web.
 
-## Getting Started
+🚀 Live Demo
 
-This project is a starting point for a Flutter application.
+👉 Open Microblog App
 
-A few resources to get you started if this is your first Flutter project:
+🧩 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🏠 Home Feed: View, post, like, and retweet tweets
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🔍 Explore Tab: Discover trending topics and follow people
+
+💬 Messages: Demo messages tab
+
+👤 Profile Page: Shows user info, tweets, and following count
+
+🖊️ Compose Tweet: Post new tweets via composer or floating action button
+
+🧠 Local State Logic: All tweets are handled in memory (no backend)
+
+🛠️ Built With
+
+Flutter 3.35.7 (stable)
+
+Dart
+
+Material Design
+
+Hosted on Render
+
+🧰 Installation & Run Locally
+1️⃣ Clone the repo
+git clone https://github.com/<your-username>/microblog.git
+cd microblog
+
+2️⃣ Get dependencies
+flutter pub get
+
+3️⃣ Run the app
+flutter run
+
+4️⃣ Build for web
+flutter build web --release
+
+5️⃣ Preview locally
+cd build/web
+python -m http.server 8080
+# then open http://localhost:8080
+
+🌐 Deployment (on Render)
+
+Build web version:
+
+flutter build web --release
+
+
+Upload the contents of build/web to Render as a Static Site
+
+Set Publish Directory: build/web
+
+Done! Your site will go live at:
+👉 https://micro-blog-1fcn.onrender.com/
+💡 Future Improvements
+
+Persistent tweet storage (Firebase / SQLite)
+
+Authentication (Login / Signup)
+
+Dark mode toggle
+
+Comment threads
